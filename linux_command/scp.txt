@@ -1,0 +1,14 @@
+scp
+基本语法
+	scp [options] source_file destination_file
+
+与远程服务器间互相拷贝
+	用户名@ip地址:文件或目录的绝对路径
+	示例：scp user@192.168.1.100:/home/user/test.txt /home/user/
+
+参数：
+	-r：复制整个目录
+	-P：指定端口号
+	-v：显示进度条
+	-u：只复制新文件
+	*：通配符
